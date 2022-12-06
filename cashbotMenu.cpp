@@ -1,3 +1,9 @@
+/*------------------------------------------------------------------------------------
+ Function Name: bossbotMenu
+ Function Return Type: int
+ Parameters: none
+ Function Description: This function displays a menu and return the menu choice.
+ -----------------------------------------------------------------------------------*/
 #include "cashbotMenu.h"
 
 int cashbotMenu() {

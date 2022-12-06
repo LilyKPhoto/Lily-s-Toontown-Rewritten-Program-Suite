@@ -1,18 +1,14 @@
+/*------------------------------------------------------------------------------------
+ Function Name: cashbotCalcNumerical
+ Function Return Type: void
+ Parameters: none
+ Function Description: This function asks the user for the number of Cogbucks
+ that they need. It will then output the number and type of Mints needed
+ to be ready for promotion.
+ -----------------------------------------------------------------------------------*/
 #include "cashbotCalcNumerical.h"
 
 void cashbotCalcNumerical() {
-  /* int ShortChange[5]{40, 50, 60, 70, 300};
-  int PennyPincher[5]{60, 80, 100, 120, 500};
-  int Tightwad[5]{100, 130, 160, 190, 800};
-  int BeanCounter[5]{160, 210, 260, 310, 1300};
-  int NumberCruncher[5]{260, 340, 420, 500, 2100};
-  int MoneyBags[5]{420, 550, 680, 810, 3400};
-  int LoanShark[5]{680, 890, 1100, 1310, 5500};
-  int RobberBaron[42]{1100, 1440, 1780, 2120, 8900, 1100, 8900, 1100, 1440,
-                      1780, 2120, 8900, 1100, 1440, 1780, 2120, 2460, 2800,
-                      3140, 3480, 3820, 8900, 1100, 1440, 1780, 2120, 2460,
-                      2800, 3140, 3480, 3820, 8900, 1100, 1440, 1780, 2120,
-                      2460, 2800, 3140, 3480, 3820, 8900}; */
   //============ Coin Mint ranges ============//
   const int coinLow = 356, coinHigh = 544;
   //============ Dollar Mint ranges ============//
@@ -47,44 +43,7 @@ void cashbotCalcNumerical() {
        << endl;
   cout << "Enter the number of Cogbucks you need: ";
   cin >> neededCogbucks;
-  /* cout << "Enter the Cog name: ";
-  cin.ignore();
-  getline(cin, cogName);
-
-  cout << "Enter the Cog level: ";
-  cin >> cogLevel;
-
-  if (cogName == "Short Change") {
-    index = cogLevel - 1;
-    neededCogbucks = ShortChange[index];
-  } else if (cogName == "Penny Pincher") {
-    index = cogLevel - 2;
-    neededCogbucks = PennyPincher[index];
-  } else if (cogName == "Tightwad") {
-    index = cogLevel - 3;
-    neededCogbucks = Tightwad[index];
-  } else if (cogName == "Bean Counter") {
-    index = cogLevel - 4;
-    neededCogbucks = BeanCounter[index];
-  } else if (cogName == "Number Cruncher") {
-    index = cogLevel - 5;
-    neededCogbucks = NumberCruncher[index];
-  } else if (cogName == "Money Bags") {
-    index = cogLevel - 6;
-    neededCogbucks = MoneyBags[index];
-  } else if (cogName == "Loan Shark") {
-    index = cogLevel - 7;
-    neededCogbucks = LoanShark[index];
-  } else if (cogName == "Robber Baron") {
-    index = cogLevel - 8;
-    neededCogbucks = RobberBaron[index];
-  } else {
-    cout << "That Cog hasn't been invented yet!" << endl;
-  }
-
-  cout << "\nYour Cog Disguise needs " << neededCogbucks << " Cogbucks.\n"
-       << endl; */
-
+ 
   if (neededCogbucks < (coinLow / 2))
     cout << "You can do a Coin Mint if you want,\n"
          << "but doing Cashbot buildings during invasions may be easier."

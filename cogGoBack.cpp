@@ -1,3 +1,9 @@
+/*------------------------------------------------------------------------------------
+ Function Name: cogGoBack
+ Function Return Type: bool
+ Parameters: none
+ Function Description: This function displays a menu and returns either true or false.
+ -----------------------------------------------------------------------------------*/
 /* This program will go back to the Cog Suit sub-menu. */
 
 #include "cogGoBack.h"

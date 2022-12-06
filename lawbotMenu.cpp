@@ -1,3 +1,9 @@
+/*------------------------------------------------------------------------------------
+ Function Name: lawbotMenu
+ Function Return Type: int
+ Parameters: none
+ Function Description: This function displays a menu and return the menu choice.
+ -----------------------------------------------------------------------------------*/
 #include "lawbotMenu.h"
 
 int lawbotMenu() {

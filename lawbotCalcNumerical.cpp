@@ -1,3 +1,11 @@
+/*------------------------------------------------------------------------------------
+ Function Name: lawbotCalcNumerical
+ Function Return Type: void
+ Parameters: none
+ Function Description: This function asks the user for the number of Jury Notices
+ that they need. It will then output the number and type of DA Offices needed
+ to be ready for promotion.
+ -----------------------------------------------------------------------------------*/
 #include "lawbotCalcNumerical.h"
 
 void lawbotCalcNumerical() {

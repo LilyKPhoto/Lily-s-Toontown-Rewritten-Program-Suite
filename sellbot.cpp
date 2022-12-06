@@ -1,3 +1,11 @@
+/*-----------------------------------------------------------------------------
+ Function Name: sellbotCalc
+ Function Return Type: void
+ Parameters: none
+ Function Description: This function asks the user for the Cog's name and its
+ suit level. It will then output the number and type of Factories needed
+ to be ready for promotion.
+ ------------------------------------------------------------------------------*/
 #include "sellbot.h"
 
 void sellbotCalc() {

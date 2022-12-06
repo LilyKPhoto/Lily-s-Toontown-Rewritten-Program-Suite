@@ -1,3 +1,10 @@
+/*------------------------------------------------------------------------------------
+ Function Name: raceCalc
+ Function Return Type: void
+ Parameters: none
+ Function Description: This function is a sub-program. It asks the user whether they
+ want to view, update, or erase their progress. This progress is stored in two files.
+ -----------------------------------------------------------------------------------*/
 #include "raceCalc.h"
 // I need to declare these variables outside of main() so that I can use
 // them in other functions.

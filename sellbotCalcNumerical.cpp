@@ -1,3 +1,11 @@
+/*------------------------------------------------------------------------------------
+ Function Name: sellbotCalcNumerical
+ Function Return Type: void
+ Parameters: none
+ Function Description: This function asks the user for the number of Stock Options
+ that they need. It will then output the number and type of Factories needed
+ to be ready for promotion.
+ -----------------------------------------------------------------------------------*/
 #include "sellbotCalcNumerical.h"
 
 void sellbotCalcNumerical() {

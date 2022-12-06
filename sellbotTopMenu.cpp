@@ -1,3 +1,9 @@
+/*------------------------------------------------------------------------------------
+ Function Name: bossbotMenu
+ Function Return Type: char
+ Parameters: none
+ Function Description: This function displays a menu and return the menu choice.
+ -----------------------------------------------------------------------------------*/
 #include "sellbotTopMenu.h"
 
 char sellbotTopMenu() {
