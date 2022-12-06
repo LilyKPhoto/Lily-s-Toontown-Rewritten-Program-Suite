@@ -1,28 +1,15 @@
-/*===========================================================
- This sub-program runs the Bossbot Calculator routine.
- It asks how many Stock Options you need and tells you what
- facilities you need to do.
- This is mostly the same as the bossbotCalc.cpp program,
- but asks for a number instead of the cog suit.
- ===========================================================*/
+/*-----------------------------------------------------------------------------
+ Function Name: bossbotCalcNumerical
+ Function Return Type: void
+ Parameters: none
+ Function Description: This function asks the user for the number of Stock Options
+ that they need. It will then output the number and type of Cog Golf Courses needed
+ to be ready for promotion.
+ ------------------------------------------------------------------------------*/
 
 #include "bossbotCalcNumerical.h"
 
 void bossbotCalcNumerical() {
-    /*int Flunky[5] = {100, 130, 160, 190, 800};
-    int PencilPusher[5] = {160, 210, 260, 310, 1300};
-    int Yesman[5] = {260, 340, 420, 500, 2100};
-    int Micromanager[5] = {420, 550, 680, 810, 3400};
-    int Downsizer[5] = {680, 890, 1100, 1310, 5500};
-    int HeadHunter[5] = {1100, 1440, 1780, 2120, 8900};
-    int CorporateRaider[5] = {1780, 2330, 2880, 3430, 14400};
-    int TheBigCheese[42] = {2880,  3770, 4660, 5500,  23300, 2880,  23300, 2880,
-        3770,  4660, 5500, 23300, 2880,  3770,  4660,  5500,
-        6440,  7330, 8220, 9110,  10000, 23300, 2880,  3770,
-        4660,  5500, 6440, 7330,  8220,  9110,  10000, 23300,
-        2880,  3770, 4660, 5500,  6440,  7330,  8220,  9110,
-        10000, 23300}; // This took too long to input :( */
-    
     // Declaring constants for all of the relevant combinations of Golf Courses //
     const int frontThree = 1120, middleSix = 3020, backNine = 5120, twoSix = 6040,
     ninePlusThree = 6240, ninePlusSix = 8140, twoNines = 10240,
@@ -32,50 +19,9 @@ void bossbotCalcNumerical() {
     
     int neededStockOptions; // This will be used to feed into the if/else madness
     
-    /*string cogName;         // Cog Name
-    int cogLevel;           // Level of Cog
-    int index; // This will be used to locate appropriate stock option value.
-    cout << "Enter the Cog name.\n";
-    getline(cin, cogName);
-    
-    cout << "Enter the Cog level.\n";
-    cin >> cogLevel;
-    
-    if (cogName == "Flunky") {
-        index = cogLevel - 1;
-        neededStockOptions = Flunky[index];
-    } else if (cogName == "Pencil Pusher") {
-        index = cogLevel - 2;
-        neededStockOptions = PencilPusher[index];
-    } else if (cogName == "Yesman") {
-        index = cogLevel - 3;
-        neededStockOptions = Yesman[index];
-    } else if (cogName == "Micromanager") {
-        index = cogLevel - 4;
-        neededStockOptions = Micromanager[index];
-    } else if (cogName == "Downsizer") {
-        index = cogLevel - 5;
-        neededStockOptions = Downsizer[index];
-    } else if (cogName == "Head Hunter") {
-        index = cogLevel - 6;
-        neededStockOptions = HeadHunter[index];
-    } else if (cogName == "Corporate Raider") {
-        index = cogLevel - 7;
-        neededStockOptions = CorporateRaider[index];
-    } else if ((cogName == "The Big Cheese") || (cogName == "Big Cheese")) {
-        index = cogLevel - 8;
-        neededStockOptions = TheBigCheese[index];
-    } else {
-        cout << "That Cog hasn't been invented yet!" << endl;
-        exit(1);
-    }*/
-    
     cout << "How many Stock Options do you need? ";
     cin >> neededStockOptions;
-    
-    /*cout << "\nYour Cog Disguise needs " << neededStockOptions
-    << " Stock Options.\n\n";*/
-    
+
     // Figuring out what golf courses are needed based on Stock Option
     // requirements //
     

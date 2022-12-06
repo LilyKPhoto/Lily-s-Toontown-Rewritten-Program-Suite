@@ -1,3 +1,12 @@
+/*-----------------------------------------------------------------------------
+ Function Name: bossbotCalc
+ Function Return Type: void
+ Parameters: none
+ Function Description: This function asks the user for the Cog's name and its
+ suit level. It will then output the number and type of Cog Golf Courses needed
+ to be ready for promotion.
+ ------------------------------------------------------------------------------*/
+
 #include "bossbot.h"
 
 void bossbotCalc() {
